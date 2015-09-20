@@ -695,7 +695,7 @@ entityDef player_marine
 	"weapon"						"weapon_blaster"
 	"current_weapon"					"0"
 
-	"pm_jumpheight"						"48"
+	"pm_jumpheight"						"480"
 	"pm_stepsize"						"16"
 	"pm_speed"						"160"  	//DOOM speed was 140
 	"pm_walkspeed"						"80"
@@ -711,7 +711,7 @@ entityDef player_marine
 	"pm_crouchheight"					"38"
 	"pm_crouchviewheight"					"32"
 	"pm_normalheight"					"74"
-	"pm_normalviewheight"					"68"
+	"pm_normalviewheight"					"6"
 	"pm_deadheight"						"20"
 	"pm_deadviewheight"					"10"
 	"pm_crouchrate"						"0.87"

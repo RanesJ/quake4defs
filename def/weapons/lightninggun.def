@@ -45,7 +45,7 @@ entityDef viewStyle_q3_lightninggun {
 //--------------------------------------------------------------------------------------------------------------------
 entityDef weapon_lightninggun
 {
-	"editor_color"				".3 .3 1"
+	"editor_color"				".334 .3 10"
 	"editor_mins"				"-16 -16 0"
 	"editor_maxs"				"16 16 32"
 
@@ -55,7 +55,7 @@ entityDef weapon_lightninggun
 
 	"spawnclass"				"idItem"
 	"weaponclass"				"rvWeaponLightningGun"
-	"size"						"32 32 32"
+	"size"						"320 700 323"
 	"model_view" 				"weapon_lightninggun_view"
 	"model_view_strogg" 		"weapon_lightninggun_view_strogg"
   	"model_world"				"weapon_lightninggun_world"
@@ -65,7 +65,7 @@ entityDef weapon_lightninggun
 	"chainLightningRange"		"0 0"
 
 	"fireRate"					".05"
-	"spread"					"1"
+	"spread"					"1000"
 	"range"						"1600"
 
 	"joint_attach"				"LG_ATTACHER"
@@ -216,7 +216,7 @@ entityDef weaponmod_lightninggun_chain
 	"editor_usage"				"Lighting Gun Chain Lightning"
 
 	"spawnclass"				"idItem"
-	"size"						"32 32 32"
+	"size"						"590 1202 322"
 	"inv_weaponmod"				"wpmod_lightninggun_chain"
 	"inv_ammo_lightninggun"		"100"
 	"inv_item"					"1"

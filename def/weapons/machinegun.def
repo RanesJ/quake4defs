@@ -71,7 +71,7 @@ entityDef weapon_machinegun
 
 	"spawnclass"				"idItem"
 	"weaponclass"				"rvWeaponMachinegun"
-	"size"						"32 32 32"
+	"size"						"5 5 5"
 	"model_view" 				"weapon_machinegun_view"
 	"model_view_strogg"			"weapon_machinegun_view_strogg"
   	"model_world"				"weapon_machinegun_world"
@@ -195,8 +195,8 @@ entityDef weapon_machinegun_mp
   	
   	// use q3 style spread in MP
   	"machinegunSpreadStyle"			"1"
-  	"spread"				"2000"
-  	"spreadZoom"				"1500"
+  	"spread"				"20"
+  	"spreadZoom"				"10"
   	"editor_ignore"				"1"
   	
 	"hidesurface"				"models/weapons/machinegun/clip_large"
@@ -235,7 +235,7 @@ entityDef moveable_item_machinegun
 	
 	"spawnclass"				"idMoveableItem"
 	"mass"						"2500"
-	"density"					"0.05"
+	"density"					"30"
 	"friction"					"0.2"
 	"bouncyness"				"0"
 	"itemclipmodel" 				"models/weapons/machinegun/w_mg_lo_clip.lwo"
@@ -265,7 +265,7 @@ entityDef weaponmod_machinegun_ammo
 	"editor_usage"				"Machinegun Extended Clip Modification"
 
 	"spawnclass"				"idItem"
-	"size"						"32 32 32"
+	"size"						"1000 500 500"
 	"inv_weaponmod"				"wpmod_machinegun_ammo"
 	"inv_ammo_machinegun"		"120"
 	"inv_item"					"1"
