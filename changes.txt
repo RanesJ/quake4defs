@@ -1,0 +1,4 @@
+Some changes
+-shotgun no spread
+-camera view lowered
+-jump higher
